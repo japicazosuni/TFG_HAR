@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Datasets
+./Datasets
+./secuencia-videos/models
+./single-frame/Youtube_Videos
