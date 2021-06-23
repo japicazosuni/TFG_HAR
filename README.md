@@ -27,18 +27,18 @@ A continuación, se describe el contenido de cada una de las carpetas que forman
 *	Streamlit [Online]. Disponible: https://Streamlit.io
 *	AutoML [Online]. Disponible: https://www.automl.org
 *	ClickUp [Online]. Disponible: https://clickup.com
-*	2018. Unite the People [Online]. Disponible: https://www.simonwenkel.com/2018/12/09/Datasets-for-human-pose-estimation.html
-*	2017. A History of Machine Learning and Deep Learning [Online]. Disponible: https://www.import.io/post/history-of-deep-learning/ 
-*	2020. Creating a Human Pose Estimation Application with NVIDIA DeepStream [Online]. Disponible: https://developer.nvidia.com/blog/creating-a-human-pose-estimation-application-with-deepstream-sdk/  
+*	2018 Unite the People [Online]. Disponible: https://www.simonwenkel.com/2018/12/09/Datasets-for-human-pose-estimation.html
+*	2017 A History of Machine Learning and Deep Learning [Online]. Disponible: https://www.import.io/post/history-of-deep-learning/ 
+*	2020 Creating a Human Pose Estimation Application with NVIDIA DeepStream [Online]. Disponible: https://developer.nvidia.com/blog/creating-a-human-pose-estimation-application-with-deepstream-sdk/  
 *	MPII Human Pose Dataset [Online]. Disponible:  http://human-pose.mpi-inf.mpg.de
 *	Hawk-Eye [Online]. Disponible: https://www.hawkeyeinnovations.com/ 
-*	2015. Efficient and Robust Automated Machine Learning, Feurer et al., Advances in Neural Information Processing Systems 28 (NIPS 2015) [Online]. Disponible: https://proceedings.neurips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf 
+*	2015 Efficient and Robust Automated Machine Learning, Feurer et al., Advances in Neural Information Processing Systems 28 (NIPS 2015) [Online]. Disponible: https://proceedings.neurips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf 
 *	Breast Cancer Wisconsin (Diagnostic) Data Set [Online]. Disponible: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29 
 *	2019.Haifeng Jin, Qingquan Song, and Xia Hu. "Auto-keras: An efficient neural architecture search system." Proceedings of the 25th ACM SIGKDD International Conference on Kno-wledge Discovery & Data Mining [Online]. Disponible: https://autokeras.com 
-*	2012. University of Central Florida [Online]. Disponible: https://www.crcv.ucf.edu/data/UCF50.php 
-*	2021. Taha Anwar. Introduction to Video Classification an Human Activity Recognition[Online]. Disponible: https://learnopencv.com/introduction-to-video-classification-and-human-activity-recognition/
-*	2019. Adrian Rosebrock. Human Activity Recognition with OpenCV and Deep Learning [Online]. Disponi-ble:https://www.pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/ 
-*	2017. The Kinetics Human Action Video Dataset [Online]. Disponible: https://arxiv.org/abs/1705.06950 
+*	2012 University of Central Florida [Online]. Disponible: https://www.crcv.ucf.edu/data/UCF50.php 
+*	2021 Taha Anwar. Introduction to Video Classification an Human Activity Recognition[Online]. Disponible: https://learnopencv.com/introduction-to-video-classification-and-human-activity-recognition/
+*	2019 Adrian Rosebrock. Human Activity Recognition with OpenCV and Deep Learning [Online]. Disponi-ble:https://www.pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/ 
+*	2017 The Kinetics Human Action Video Dataset [Online]. Disponible: https://arxiv.org/abs/1705.06950 
 *	FitnessAlly. Disponible: https://fitnessallyapp.com/ 
  
 
