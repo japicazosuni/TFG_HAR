@@ -133,3 +133,5 @@ dmypy.json
 Datasets/
 secuencia-videos/models
 single-frame/Youtube_Videos
+single-frame/test
+single-frame/model
