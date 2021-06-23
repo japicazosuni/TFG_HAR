@@ -20,7 +20,15 @@ A continuación, se describe el contenido de cada una de las carpetas que forman
 * Curso 2020/21
 
 # Referencias
-*	FIFA [Online]. Disponible: https://football-technology.fifa.com/es/media-tiles/video-assistant-referee-var *	Kognia [Online]. Disponible: https://kogniasports.com *	Bnk To The Future [Online]. Disponible: https://app.bnktothefuture.com/pitches/2079/_first-v1sion-the-sports-broadcasting-revolution-with-andres-iniesta-and-serge-ibaka *	HomeCourt [Online]. Disponible: https://www.homecourt.ai*	Streamlit [Online]. Disponible: https://Streamlit.io*	AutoML [Online]. Disponible: https://www.automl.org*	ClickUp [Online]. Disponible: https://clickup.com*	2018. Unite the People [Online]. Disponible: https://www.simonwenkel.com/2018/12/09/Datasets-for-human-pose-estimation.html*	2017. A History of Machine Learning and Deep Learning [Online]. Disponible: https://www.import.io/post/history-of-deep-learning/ 
+*	FIFA [Online]. Disponible: https://football-technology.fifa.com/es/media-tiles/video-assistant-referee-var 
+*	Kognia [Online]. Disponible: https://kogniasports.com 
+*	Bnk To The Future [Online]. Disponible: https://app.bnktothefuture.com/pitches/2079/_first-v1sion-the-sports-broadcasting-revolution-with-andres-iniesta-and-serge-ibaka 
+*	HomeCourt [Online]. Disponible: https://www.homecourt.ai
+*	Streamlit [Online]. Disponible: https://Streamlit.io
+*	AutoML [Online]. Disponible: https://www.automl.org
+*	ClickUp [Online]. Disponible: https://clickup.com
+*	2018. Unite the People [Online]. Disponible: https://www.simonwenkel.com/2018/12/09/Datasets-for-human-pose-estimation.html
+*	2017. A History of Machine Learning and Deep Learning [Online]. Disponible: https://www.import.io/post/history-of-deep-learning/ 
 *	2020. Creating a Human Pose Estimation Application with NVIDIA DeepStream [Online]. Disponible: https://developer.nvidia.com/blog/creating-a-human-pose-estimation-application-with-deepstream-sdk/  
 *	MPII Human Pose Dataset [Online]. Disponible:  http://human-pose.mpi-inf.mpg.de
 *	Hawk-Eye [Online]. Disponible: https://www.hawkeyeinnovations.com/ 
