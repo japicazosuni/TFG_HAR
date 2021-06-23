@@ -130,6 +130,6 @@ dmypy.json
 
 
 # Datasets
-./Datasets
-./secuencia-videos/models
-./single-frame/Youtube_Videos
+Datasets/
+secuencia-videos/models
+single-frame/Youtube_Videos
