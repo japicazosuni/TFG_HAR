@@ -35,7 +35,7 @@ Durante el desarrollo del proyecto y entregas se han modificado los informes gen
 
 ### SandBox
 Imagen de los ficheros subidos al teams antes de las entregas parciales.
-![SandBox Teams](/Sandbox-teams.png)
+![SandBox Teams](Sandboxteams.png)
 
 ## Algoritmos
 * AutoML: AutoKeras, Auto sckit-learn
