@@ -33,7 +33,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-from src.procesar import process_videoTracker
+from src.procesarTracker import process_videoTracker
 from src.utiles import plot_confusion_matrix2
 
 import autokeras as ak

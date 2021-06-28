@@ -11,7 +11,7 @@ import pickle5 as pickle
 import csv
 
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, plot_confusion_matrix
+from sklearn.metrics import classification_report, plot_confusion_matrix, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -22,6 +22,8 @@ from sklearn.gaussian_process.kernels import RBF
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 from keras.optimizers import Adam
+
+
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -42,7 +44,7 @@ def autokeras_model(csv,namemodel,testsize):
         encoder = LabelEncoder()
         encoder_Y = encoder.fit_transform(Y)
         class_mapping = dict(zip(encoder.classes_, encoder.transform(encoder.classes_)))
-
+        print(class_mapping)
         # Train/Test split
         X_train, X_test, Y_train, Y_test = train_test_split(X, encoder_Y, test_size=testsize, random_state=9)
         clf3 = ak.StructuredDataClassifier(max_trials=1)
@@ -56,11 +58,11 @@ def autokeras_model(csv,namemodel,testsize):
         st.text("Accuracy Evaluate: {accuracy}".format(accuracy=clf3.evaluate(X_test, Y_test)))
         st.text("Accuracy Score: {accuracy}".format(accuracy=accuracy_autok3_df))
 
-        # Matriz de confusion 
-        # plot_confusion_matrix(Y_test,y_pred_autok3,normalize=True,figsize=(4,4))
-        st.pyplot()
 
-        # st.text(classification_report(Y_test,y_pred_autok3))
+        # Matriz de confusion 
+        # print(confusion_matrix(Y_test, y_pred_autok3))
+        skplt.metrics.plot_confusion_matrix(Y_test,y_pred_autok3,figsize=(12,12),normalize=True)
+        st.pyplot()
         
         # Exportar Modelo
         st.text("Resumen modelo")

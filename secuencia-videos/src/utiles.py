@@ -9,6 +9,7 @@ import csv
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import plot_confusion_matrix
 
 
 def plot_confusion_matrix2(cm, classes,normalize=False,title='Confusion matrix', cmap=plt.cm.Blues):
@@ -125,3 +126,5 @@ def split_xy(csv_path):
     for clase in y_test:
         data_writery.writerow([clase])
 
+def confusion_matrixUCF(datos,target):
+    plot_confusion_matrix(cm=datos,normalize=False,target_names = target,title="Confusion Matrix")

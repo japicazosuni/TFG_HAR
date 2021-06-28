@@ -8,6 +8,34 @@ A continuación, se describe el contenido de cada una de las carpetas que forman
 * Single-frame: contiene todos los archivos utilizados durante el desarrollo y análisis, tras aplicar el método de análisis de una única imagen.
 * Secuencia-videos: contiene todos los archivos de los metodos aplicados para realizar el reconocimiento de acciones a una secuencia de vídeo.
 * AutoML-analisis: contiene un Jupyter Notebook el cual contiene el ejemplo de Breast Cancer y su correspondiente análisis.
+* Fichero Links_interes: contiene links de distintos enlaces consultados y de interés, que he encontrado durante el desarrollo del proyecto.
+
+
+
+## Listado de cambios
+Durante el desarrollo del proyecto y entregas se han modificado los informes generando diferentes versiones.
+* Informe inicial
+    * PoseAnalisis-Informe InicialV1.pdf: primera versión del informe inicial.
+    * PoseAnalisis-Informe InicialV2.pdf: extensión de la introducción, objetivos y metodología. También añadido apartado de planificación.
+    * PoseAnalisis-InformeInicialV3.pdf: traspasada toda la información al formato final del informe y modificado apartado de planificación y añadidas algunas imagenes.
+
+* Informe Progreso 1
+    * PoseAnalisis-InformeProgreso1_V1.pdf: añadida primera versión del apartado de desarrollo en el que se han explicado los pasos realizados hasta el momento.
+    * PoseAnalisis-InformeProgreso1_V2.pdf: añadidas imágenes de los resultados del análisis autoML y de reconocimiento. Extendida la introducción.
+
+* Informe Progreso 2
+    * Informe-Progreso2.pdf: revisado apartado de desarrollo respecto al análisis autoML y clasificación de poses.
+    * Informe-Progreso-2.pdf: añadidas pequeñas conclusiones y introducción al apartado de reconocimiento de actividad.
+
+* Informe final
+    * Informe-final-V1.pdf: añadida parte del desarrollo de reconocimiento de poses.
+    * Informe-final-V2.pdf: añadidas imágenes y toda la información del proyecto.
+    * Informe-final-borrador.pdf: informe entregado como borrador tras corregir y añadir algunas imágenes.
+    * Informe-final-RevisadoV2.pdf: añadidas imágenes restantes y revisión completa del texto del informe corrigiendo faltas de ortográficas y expresión escrita.
+
+### SandBox
+Imagen de los ficheros subidos al teams antes de las entregas parciales.
+![SandBox Teams](/Sandbox-teams.png)
 
 ## Algoritmos
 * AutoML: AutoKeras, Auto sckit-learn

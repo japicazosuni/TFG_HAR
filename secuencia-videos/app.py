@@ -90,8 +90,6 @@ params = dict()
 params["model_folder"] = "C:/TFG/openpose/models"
 params["model_pose"] = body_model
 
-
-
 # Side Bar - Seleccionar Accion
 act = st.sidebar.selectbox("Accion:",list(ACCIONES.keys()))
 accion = ACCIONES[act]

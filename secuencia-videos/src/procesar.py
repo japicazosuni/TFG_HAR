@@ -24,7 +24,7 @@ from deep_sort.detection import Detection as ddet
 from tools import generate_detections as gdet
 from tools.utils import poses2boxes
 
-from utiles import eliminar_imagenes,generar_video
+from src.utiles import eliminar_imagenes,generar_video
 
 class Actions(Enum):
     caminar = 0

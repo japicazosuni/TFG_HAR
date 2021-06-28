@@ -25,8 +25,6 @@ from tools.utils import poses2boxes
 
 from src.utiles import generar_video
 
-from sklearn.preprocessing import MinMaxScaler
-from sklearn import preprocessing
 
 
 class ActionsUCF(Enum):
@@ -52,16 +50,17 @@ class ActionsTrex(Enum):
 
 def process_videoTracker(videoPath,width,height,datum,action_model,opWrapper,op):
     try:
-        # process_videoTrackerCSV(videoPath,width,height,datum,opWrapper,op)
+        process_videoTrackerCSV(videoPath,width,height,datum,opWrapper,op)
         del opWrapper
         del datum
 
         process_videoActionTracker('C:/TFG/openpose/build_windows/examples/user_code/output/process_2.csv',action_model,width,height)
         del action_model
 
-        # generar_video('C:/TFG/openpose/build_windows/examples/user_code/output/process_2.csv',width,height,'db-tracker')
+        generar_video('C:/TFG/openpose/build_windows/examples/user_code/output/process_2.csv',width,height,'db-trackerUCF')
 
         # eliminar_imagenes("output/video")
+        # confusion_matrixUCF()
 
     except Exception as e:
         # st.exception(e)
@@ -93,7 +92,7 @@ def process_videoTrackerCSV(videoPath,width,height,datum,opWrapper,op):
             metric = nn_matching.NearestNeighborDistanceMetric("cosine",1,None)
             model_filename = 'model_data/mars-small128.pb'
             encoder = gdet.create_box_encoder(model_filename,batch_size=1)
-
+            print(videoPath)
             cap = cv2.VideoCapture(videoPath)
             while (cap.isOpened()):
                 # datum = op.Datum()
@@ -180,19 +179,6 @@ def process_videoActionTracker(csv_path,action_modelPath,width,height):
         print(df.head()) 
         print(dataset[:5,1:51])
 
-        # Normalizar MinMax
-        # norm = MinMaxScaler().fit(dataset[0:,1:51])
-        # dataset[0:,1:51] = norm.transform(dataset[0:,1:51])
-        # print("Datos normalizados MinMax")
-        # print(dataset.shape)
-        # print(dataset)
-
-        # Normalizar
-        normalized_arr = preprocessing.normalize(dataset[0:,1:51])
-        print("Datos normalizados")
-        print(normalized_arr)
-        dataset = normalized_arr
-
         dim = (width, height) 
         
         # Cargar modelo
@@ -214,10 +200,13 @@ def process_videoActionTracker(csv_path,action_modelPath,width,height):
                     lst_best.append((bestAction[0][0]))
                     most_common_action= max(lst_best, key = lst_best.count)
                 
+                
                 print("Common-->"+str(most_common_action))
-                print("Action common --> "+ str(ActionsTrex(most_common_action).name))
-                # label_accion = "Accion: {0}".format(ActionsUCF(most_common_action).name)
-                label_accion = "Accion: {0}".format(ActionsTrex(most_common_action).name)
+                print(lst_best)
+                print("Action common --> "+ str(ActionsUCF(most_common_action).name))
+                # print("Action common --> "+ str(ActionsTrex(most_common_action).name))
+                label_accion = "Accion: {0}".format(ActionsUCF(most_common_action).name)
+                # label_accion = "Accion: {0}".format(ActionsTrex(most_common_action).name)
 
                 # Reiniciamos variables
                 frame = 0  
@@ -231,8 +220,8 @@ def process_videoActionTracker(csv_path,action_modelPath,width,height):
                 lstKeypoints = dataset[ind, 1:51].astype(float)
                 frames_lstkeypoints.append(lstKeypoints)
                 if most_common_action != '':
-                    # label_accion = "Accion: {0}".format(ActionsUCF(most_common_action).name)
-                    label_accion = "Accion: {0}".format(ActionsTrex(most_common_action).name)
+                    label_accion = "Accion: {0}".format(ActionsUCF(most_common_action).name)
+                    # label_accion = "Accion: {0}".format(ActionsTrex(most_common_action).name)
                 else:
                     label_accion = "Accion: "
                 frame+=1    

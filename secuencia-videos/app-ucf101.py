@@ -55,7 +55,7 @@ try:
     # Variables globales
     pathVideos = "C:/TFG/openpose/build_windows/examples/user_code/Dataset/UCF101"
     pathImagenes = "C:/TFG/openpose/build_windows/examples/user_code/Dataset/UCF101_img"
-    videoToProcess = "C:/TFG/openpose/build_windows/examples/user_code/Dataset/UCF101/archery/LongJump-test.mp4"
+    videoToProcess = "C:/TFG/openpose/build_windows/examples/user_code/test/LongJump-test_trim.mp4"
     csv_path = 'C:/TFG/openpose/build_windows/examples/user_code/output/process_ucf101.csv'
     action_model = 'output/model/sentiment_analysis-ucf101.h5'
     label_names = ['archery','basketball','bowling','golfswing','highjump','longjump','playingguitar','shotput']
@@ -66,7 +66,7 @@ try:
     dim = (width, height) 
 
     ## Valor opcion
-    opcion = 4
+    opcion = 5
 
     if opcion == 0:     # Extraer frames videos
         extraer_framesUCF(pathVideos,pathImagenes)
