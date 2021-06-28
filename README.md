@@ -1,4 +1,4 @@
-# TFG_HAR
+# Human Action Recognition
 Este proyecto se centra en el proceso de reconocimiento y clasificación de las acciones que está realizando una persona, también conocido como Human Activity Recognition. Para realizar el reconocimiento se ha hecho uso de un algoritmo de pose estimation, el cual proporciona el esqueleto de la persona y es de ayuda para clasificar la acción que se está realizando.  Para entrenar el modelo encargado de realizar la clasificación se ha hecho uso de una red neuronal recurrente como es LSTM y también se ha hecho uso AutoML. Todos estos métodos se han puesto a prueba con datos reales para comprobar su validez.
 
 ## Contenido
@@ -9,8 +9,6 @@ A continuación, se describe el contenido de cada una de las carpetas que forman
 * Secuencia-videos: contiene todos los archivos de los metodos aplicados para realizar el reconocimiento de acciones a una secuencia de vídeo.
 * AutoML-analisis: contiene un Jupyter Notebook el cual contiene el ejemplo de Breast Cancer y su correspondiente análisis.
 * Fichero Links_interes: contiene links de distintos enlaces consultados y de interés, que he encontrado durante el desarrollo del proyecto.
-
-
 
 ## Listado de cambios
 Durante el desarrollo del proyecto y entregas se han modificado los informes generando diferentes versiones.
@@ -35,7 +33,7 @@ Durante el desarrollo del proyecto y entregas se han modificado los informes gen
 
 ### SandBox
 Imagen de los ficheros subidos al teams antes de las entregas parciales.
-![SandBox Teams](Sandboxteams.png)
+![SandBox Teams](/Informes/Sandboxteams.png)
 
 ## Algoritmos
 * AutoML: AutoKeras, Auto sckit-learn
